@@ -2,6 +2,31 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
 }
 
-// TODO
+button {
+  border: 0;
+  background: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --background-color: #1A1D23;
+  --highlight-color: #FF57B2;
+  --text-heading: #F8F8F8;
+  --text-info: #BBBBBB;
+  --text-body: #D7D7D7;
+}
+
+body {
+  background: var(--background-color);
+}
+
