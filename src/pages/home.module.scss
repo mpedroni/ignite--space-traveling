@@ -5,6 +5,8 @@
 
 .posts {
   a {
+    display: block;
+
     & + a {
       margin-top: 3rem;
     }
